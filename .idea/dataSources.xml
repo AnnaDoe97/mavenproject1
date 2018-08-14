@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="dao@localhost" uuid="1e41e484-7b8a-481d-bc04-66a9f8eb6f33">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <rewrite-bounds>false</rewrite-bounds>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/dao</jdbc-url>
+    </data-source>
+  </component>
+</project>

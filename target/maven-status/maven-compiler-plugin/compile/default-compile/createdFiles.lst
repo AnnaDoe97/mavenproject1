@@ -1,0 +1,11 @@
+dao\mapper\UserMapper.class
+services\UserService.class
+object\User.class
+com\mycompany\mavenproject1\TabExample.class
+com\mycompany\mavenproject1\MyUI.class
+utils\Commons.class
+Main.class
+com\mycompany\mavenproject1\TestLayout.class
+dao\UserDAO.class
+dao\UserDAOImplPostgres.class
+com\mycompany\mavenproject1\MyUI$MyUIServlet.class
