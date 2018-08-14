@@ -71,8 +71,8 @@
     <schema id="15" parent="2" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2018-08-14.21:48:24.653</IntrospectionTimestamp>
-      <IntrospectionStateNumber>622</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-08-15.02:50:22.710</IntrospectionTimestamp>
+      <IntrospectionStateNumber>635</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -186,37 +186,31 @@
       <StateNumber>597</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="34" parent="25" name="id">
-      <Position>3</Position>
-      <DataType>integer|0s</DataType>
-      <StateNumber>608</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="35" parent="26" name="id">
+    <column id="34" parent="26" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>556</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="36" parent="26" name="user_name">
+    <column id="35" parent="26" name="user_name">
       <Position>2</Position>
       <DataType>varchar(65)|0s</DataType>
       <StateNumber>556</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="37" parent="26" name="phone">
+    <column id="36" parent="26" name="phone">
       <Position>3</Position>
       <DataType>varchar(11)|0s</DataType>
       <StateNumber>556</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="38" parent="26" name="comp_name">
+    <column id="37" parent="26" name="comp_name">
       <Position>4</Position>
       <DataType>varchar(30)|0s</DataType>
       <StateNumber>583</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="39" parent="26" name="birth_date">
+    <column id="38" parent="26" name="birth_date">
       <Position>5</Position>
       <DataType>date|0s</DataType>
       <StateNumber>622</StateNumber>

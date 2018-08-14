@@ -7,122 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d30b2949-a288-4fa6-827a-d8e69b72f350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33/storage_v2/_src_/database/dao.koMBAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33/storage_v2/_src_/database/dao.koMBAA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nb-configuration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/MyUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TabExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TestLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CompanyDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CompanyDAOImplPostgres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/CompanyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/object/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/object/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Commons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/html/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/addons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycompany/mavenproject1/MyUI$MyUIServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycompany/mavenproject1/MyUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycompany/mavenproject1/TabExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycompany/mavenproject1/TestLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/CompanyDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/CompanyDAOImplPostgres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/DAOFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/EmployeeDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/EmployeeDAOImplPostgres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/mapper/CompanyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/html/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/object/Company.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/object/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/utils/Commons.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/VAADIN/themes/mytheme/addons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/VAADIN/themes/mytheme/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/VAADIN/themes/mytheme/mytheme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/VAADIN/themes/mytheme/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/VAADIN/themes/mytheme/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/mavenproject1/MyUI$MyUIServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/mavenproject1/MyUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/mavenproject1/TabExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/mavenproject1/TestLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/dao/CompanyDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/dao/CompanyDAOImplPostgres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/dao/DAOFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/dao/EmployeeDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/dao/EmployeeDAOImplPostgres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/dao/mapper/CompanyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/dao/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/html/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/object/Company.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/object/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/utils/Commons.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/atmosphere-runtime-2.4.24.vaadin1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/flute-1.3.0.gg2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/gentyref-1.2.0.vaadin1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/jsoup-1.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/sac-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-3.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/spring-asm-3.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-3.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/spring-context-3.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/spring-core-3.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-3.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-3.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-3.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/vaadin-client-compiled-8.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/vaadin-push-8.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/vaadin-sass-compiler-0.9.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/vaadin-server-8.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/vaadin-shared-8.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/vaadin-slf4j-jdk14-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/lib/vaadin-themes-8.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dao/CompanyDAOImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dao/EmployeeDAOImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33/storage_v2/_src_/database/dao.koMBAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1e41e484-7b8a-481d-bc04-66a9f8eb6f33/storage_v2/_src_/database/dao.koMBAA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/EmployeeDAOImplPostgres.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/EmployeeDAOImplPostgres.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/CompanyDAOImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dao/CompanyDAOImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/EmployeeDAOImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dao/EmployeeDAOImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -238,7 +134,7 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.38" value="3" />
-          <entry key="project.open.time.39" value="3" />
+          <entry key="project.open.time.39" value="4" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.41" value="2" />
@@ -248,7 +144,7 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -257,21 +153,21 @@
           <entry key="company" value="6" />
           <entry key="groovy" value="5" />
           <entry key="html" value="2" />
-          <entry key="java" value="88" />
+          <entry key="java" value="90" />
           <entry key="js" value="1" />
           <entry key="properties" value="2" />
           <entry key="relation" value="5" />
           <entry key="sql" value="7" />
-          <entry key="user_data" value="10" />
+          <entry key="user_data" value="11" />
           <entry key="user_id" value="5" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="21" />
+          <entry key="Database Element" value="22" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="88" />
+          <entry key="JAVA" value="90" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
           <entry key="SQL" value="6" />
@@ -284,7 +180,7 @@
           <entry key="cell" value="90" />
           <entry key="dummy" value="56" />
           <entry key="html" value="23" />
-          <entry key="java" value="4281" />
+          <entry key="java" value="4412" />
           <entry key="properties" value="6" />
           <entry key="sql" value="147" />
           <entry key="txt" value="107" />
@@ -294,7 +190,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="23" />
-          <entry key="JAVA" value="4281" />
+          <entry key="JAVA" value="4412" />
           <entry key="PLAIN_TEXT" value="163" />
           <entry key="Properties" value="6" />
           <entry key="SQL" value="71" />
@@ -309,25 +205,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="410">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1534266263745" expanded="true" signature="702:815" ph="..." />
-                <marker date="1534266263745" expanded="true" signature="818:884" ph="..." />
+                <marker date="1534270700856" expanded="true" signature="1538:1643" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -345,13 +231,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/object/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="73" column="52" lean-forward="true" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -369,19 +252,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TestLayout.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -389,7 +263,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/object/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="416">
               <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
             </state>
           </provider>
@@ -407,8 +281,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -441,6 +327,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="&lt;Anna_Doe1997&gt;" />
         <option value="Anna_Doe1997" />
         <option value="AnnaDoe97" />
       </list>
@@ -471,11 +358,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/html/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TabExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/object/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java" />
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java" />
       </list>
     </option>
   </component>
@@ -531,8 +418,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -679,14 +564,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534266894291" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534273401108" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="SQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -708,15 +595,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeDAOImplTest.testEmployee">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="mavenproject1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompanyDAOImplTest.testMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmployeeDAOImplTest.byUserID">
+    <configuration name="EmployeeDAOImplTest.addWithDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mavenproject1" />
       <extension name="coverage">
         <pattern>
@@ -725,8 +605,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.CompanyDAOImplTest" />
-      <option name="METHOD_NAME" value="testMethod" />
+      <option name="MAIN_CLASS_NAME" value="dao.EmployeeDAOImplTest" />
+      <option name="METHOD_NAME" value="addWithDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDAOImplTest.byID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenproject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.EmployeeDAOImplTest" />
+      <option name="METHOD_NAME" value="byID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDAOImplTest.byUserID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenproject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.EmployeeDAOImplTest" />
+      <option name="METHOD_NAME" value="byUserID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -743,16 +655,6 @@
       <option name="PACKAGE_NAME" value="dao" />
       <option name="MAIN_CLASS_NAME" value="dao.EmployeeDAOImplTest" />
       <option name="METHOD_NAME" value="testEmployee" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.checkTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mavenproject1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="checkTime" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -968,19 +870,19 @@
     <list>
       <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Tomcat Server.Server" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Test.method" />
-      <item itemvalue="JUnit.CompanyDAOImplTest.testMethod" />
       <item itemvalue="JUnit.EmployeeDAOImplTest.testEmployee" />
-      <item itemvalue="JUnit.Test.checkTime" />
+      <item itemvalue="JUnit.EmployeeDAOImplTest.addWithDate" />
+      <item itemvalue="JUnit.EmployeeDAOImplTest.byID" />
+      <item itemvalue="JUnit.EmployeeDAOImplTest.byUserID" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeDAOImplTest.byUserID" />
+        <item itemvalue="JUnit.EmployeeDAOImplTest.byID" />
+        <item itemvalue="JUnit.EmployeeDAOImplTest.addWithDate" />
         <item itemvalue="JUnit.EmployeeDAOImplTest.testEmployee" />
         <item itemvalue="JUnit.Test.method" />
-        <item itemvalue="JUnit.Test.checkTime" />
-        <item itemvalue="JUnit.CompanyDAOImplTest.testMethod" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -1019,28 +921,11 @@
       <workItem from="1534198695144" duration="1627000" />
       <workItem from="1534238319311" duration="7102000" />
       <workItem from="1534260218546" duration="6198000" />
+      <workItem from="1534268915550" duration="4465000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_checkTime - 2018.08.15 at 00h 03m 13s.xml">
-      <configuration name="Test.checkTime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_method - 2018.08.15 at 00h 37m 53s.xml">
-      <configuration name="Test.method" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_method - 2018.08.15 at 00h 39m 01s.xml">
-      <configuration name="Test.method" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_method - 2018.08.15 at 00h 40m 57s.xml">
-      <configuration name="Test.method" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_method - 2018.08.15 at 00h 41m 21s.xml">
-      <configuration name="Test.method" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_method - 2018.08.15 at 00h 44m 52s.xml">
-      <configuration name="Test.method" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_method - 2018.08.15 at 00h 48m 37s.xml">
       <configuration name="Test.method" configurationId="JUnit" />
     </history-entry>
@@ -1053,9 +938,27 @@
     <history-entry file="EmployeeDAOImplTest_testEmployee - 2018.08.15 at 01h 00m 25s.xml">
       <configuration name="EmployeeDAOImplTest.testEmployee" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EmployeeDAOImplTest_addWithDate - 2018.08.15 at 02h 04m 32s.xml">
+      <configuration name="EmployeeDAOImplTest.addWithDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeDAOImplTest_addWithDate - 2018.08.15 at 02h 06m 14s.xml">
+      <configuration name="EmployeeDAOImplTest.addWithDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeDAOImplTest_addWithDate - 2018.08.15 at 02h 10m 14s.xml">
+      <configuration name="EmployeeDAOImplTest.addWithDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeDAOImplTest_byID - 2018.08.15 at 02h 13m 33s.xml">
+      <configuration name="EmployeeDAOImplTest.byID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeDAOImplTest_byUserID - 2018.08.15 at 02h 17m 42s.xml">
+      <configuration name="EmployeeDAOImplTest.byUserID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeDAOImplTest_byUserID - 2018.08.15 at 02h 51m 05s.xml">
+      <configuration name="EmployeeDAOImplTest.byUserID" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187689000" />
+    <option name="totallyTimeSpent" value="192154000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1068,8 +971,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.19023137" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.19280206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1080,7 +984,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.5430591" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.67802054" weight="0.29380053" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.67609257" visible="true" weight="0.29380053" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.68508995" weight="0.36792454" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1088,8 +992,8 @@
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.4974293" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.49485862" weight="0.32884097" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49421594" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5051414" side_tool="true" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49485862" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.32390746" side_tool="true" visible="true" weight="0.29380053" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49485862" weight="0.32884097" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.4974293" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="14" sideWeight="0.49357328" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -1099,7 +1003,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32969153" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.17287917" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.22493573" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -1258,13 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/object/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/EmployeeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
@@ -1275,17 +1172,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/object/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TestLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1296,13 +1193,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/object/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="416">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1316,17 +1217,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/object/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="361">
+          <caret line="73" column="52" lean-forward="true" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/EmployeeDAOImplPostgres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="361">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1345,20 +1256,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="410">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1534266263745" expanded="true" signature="702:815" ph="..." />
-            <marker date="1534266263745" expanded="true" signature="818:884" ph="..." />
+            <marker date="1534270700856" expanded="true" signature="1538:1643" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>

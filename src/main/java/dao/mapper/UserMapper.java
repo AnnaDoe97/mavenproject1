@@ -22,7 +22,7 @@ public class UserMapper implements RowMapper<Employee> {
         user.setUserName(resultSet.getString("user_name"));
         user.setPhone(resultSet.getString("phone"));
         user.setUserComp(resultSet.getString("comp_name"));
-//        user.setUserBirth(resultSet.getDate("birth_date"));
+        user.setUserBirth(resultSet.getDate("birth_date"));
 
         return user;
     }

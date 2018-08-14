@@ -44,7 +44,7 @@ public class EmployeeDAOImplPostgres implements EmployeeDAO {
 
 
     private final String SQL_UPDATE_BY_ID = "UPDATE user_data SET user_name = :USER_NAME, phone = :PHONE,"+
-            " comp_name = :USER_COMPANY WHERE id = :ID";
+            " comp_name = :USER_COMPANY, birth_date = :BIRTH_DATE WHERE id = :ID";
 
 
     @Override
@@ -55,6 +55,7 @@ public class EmployeeDAOImplPostgres implements EmployeeDAO {
         parameterSource.addValue("USER_NAME", employee.getUserName());
         parameterSource.addValue("PHONE", employee.getPhone());
         parameterSource.addValue("USER_COMPANY", employee.getUserComp());
+        parameterSource.addValue("BIRTH_DATE", employee.getUserBirth());
 
 
         try {
@@ -95,8 +96,8 @@ public class EmployeeDAOImplPostgres implements EmployeeDAO {
         }
     }
 
-    private final String SQL_INSERT_USER = "INSERT INTO user_data (id, user_name, phone, comp_name) " +
-            "VALUES (:ID, :USER_NAME, :PHONE, :USER_COMPANY)";
+    private final String SQL_INSERT_USER = "INSERT INTO user_data (id, user_name, phone, comp_name, birth_date) " +
+            "VALUES (:ID, :USER_NAME, :PHONE, :USER_COMPANY, :BIRTH_DATE)";
 
     @Override
     public int addUser(Employee user) {
@@ -110,7 +111,7 @@ public class EmployeeDAOImplPostgres implements EmployeeDAO {
         parameterSource.addValue("USER_NAME", user.getUserName());
         parameterSource.addValue("PHONE", user.getPhone());
         parameterSource.addValue("USER_COMPANY", user.getUserComp());
-//        parameterSource.addValue("BIRTH_DATE", user.getUserBirth());
+        parameterSource.addValue("BIRTH_DATE", user.getUserBirth());
 
         try {
             return jdbcTemplate.update(SQL_INSERT_USER, parameterSource);
@@ -119,7 +120,7 @@ public class EmployeeDAOImplPostgres implements EmployeeDAO {
         }
     }
 
-    private final String GET_EMPLOYEE_BY_COMPANY_ID = "SELECT e.id, e.user_name, e.phone, e.comp_name "+
+    private final String GET_EMPLOYEE_BY_COMPANY_ID = "SELECT e.id, e.user_name, e.phone, e.comp_name, e.birth_date "+
             "FROM user_data e "+
             "JOIN (select * from relation where company_id = :COMPANY_ID) r ON e.id = r.employee_id "+
             "JOIN company c ON c.id = r.company_id";

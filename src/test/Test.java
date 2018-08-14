@@ -23,16 +23,12 @@ public class Test {
         /**
          * добавление сотрудника
          */
-        String s="2013-07-05";
-        SimpleDateFormat format = new SimpleDateFormat();
-        format.applyPattern("yyyy-MM-dd");
-
         Employee user = new Employee();
         user.setUserName("Ivan");
         user.setPhone("666");
         user.setUserComp("marabu");
-//        user.setUserBirth(format.parse(s));
-        userDAO.addUser(user);
+
+//        userDAO.addUser(user);
 
 //        userDAO.deleteUserById(2);
         /**
