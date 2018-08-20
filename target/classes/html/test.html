@@ -10,8 +10,37 @@
         <v-text-field _id="textField" caption="" required required-error=""
                       validation-visible="false" immediate size-full null-setting-allowed null-representation="">
         </v-text-field>
-
     </v-horizontal-layout>
+    <vaadin-grid aria-label="Basic Binding Example">
+
+        <vaadin-grid-column width="60px" flex-grow="0">
+            <template class="header">#</template>
+            <template>index</template>
+            <!-- If necessary, the footer could be set using <template class="footer"> -->
+            <template class="footer">#</template>
+        </vaadin-grid-column>
+
+        <vaadin-grid-column>
+            <template class="header">First Name</template>
+            <template>Кошка сдохла</template>
+            <template class="footer">First Name</template>
+        </vaadin-grid-column>
+
+        <vaadin-grid-column>
+            <template class="header">Last Name</template>
+            <template>хвост облез</template>
+            <template class="footer">Last Name</template>
+        </vaadin-grid-column>
+
+        <vaadin-grid-column width="8em">
+            <template class="header">Address</template>
+            <template>
+                <div style="white-space: normal">Кошка сдохла, хвост облез</div>
+            </template>
+            <template class="footer">Address</template>
+        </vaadin-grid-column>
+
+    </vaadin-grid>
 </v-vertical-layout>
 </body>
 </html>
