@@ -8,6 +8,13 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.*;
 import com.vaadin.ui.TabSheet.Tab;
+import dao.CompanyDAO;
+import dao.DAOFactory;
+import object.Company;
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
 
 /**
  * This UI is the application entry point. A UI may either represent a browser window 
@@ -21,13 +28,17 @@ public class MyUI extends UI {
 
     @Override
     protected void init(VaadinRequest vaadinRequest) {
-        
+
+        CompanyDAO companyDAO = DAOFactory.getInstance().getCompanyDAO();
+
         VerticalLayout for1 = new VerticalLayout();
         Button choose = new Button("Выбрать из существующих");
         Button add = new Button("Добавить новую");
         
-        for1.addComponents(add, choose, new TestLayout());
+        for1.addComponents(add, choose, new CompanyLayout());
 
+
+//    grid.addColumn(Person::getDateBirth).setCaption("Year of birth");
         
         setContent(for1);
         for1.setHeight("50%");
