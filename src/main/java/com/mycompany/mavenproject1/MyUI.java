@@ -33,15 +33,33 @@ public class MyUI extends UI {
 
         VerticalLayout for1 = new VerticalLayout();
         Button choose = new Button("Выбрать из существующих");
-        Button add = new Button("Добавить новую");
-        
-        for1.addComponents(add, choose, new CompanyLayout());
+
+
+
+
+        /**
+         * POPUP TEST
+         */
+
+        VerticalLayout popupContent = new VerticalLayout();
+        popupContent.addComponent(new TestLayout());
+        popupContent.addComponent(new Button("Button"));
+
+// The component itself
+        PopupView popup = new PopupView("Pop it up", popupContent);
+
+
+        PopupView companyView = new PopupView(null, new PopUpLauout());
+        Button add = new Button("Добавить новую", clickEvent ->
+                companyView.setPopupVisible(true));
+
+        for1.addComponents(add, companyView, choose, new CompanyLayout(), popup);
 
 
 //    grid.addColumn(Person::getDateBirth).setCaption("Year of birth");
         
         setContent(for1);
-        for1.setHeight("50%");
+//        for1.setHeight("100%");
 
 
 
