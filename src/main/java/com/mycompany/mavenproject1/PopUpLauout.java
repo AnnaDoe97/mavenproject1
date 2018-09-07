@@ -1,5 +1,6 @@
 package com.mycompany.mavenproject1;
 
+import com.vaadin.server.Page;
 import com.vaadin.ui.*;
 import dao.CompanyDAO;
 import dao.DAOFactory;
@@ -11,10 +12,10 @@ public class PopUpLauout extends CustomComponent {
     public PopUpLauout(){
         companyDAO = DAOFactory.getInstance().getCompanyDAO();
 
-        TextField cName = new TextField("Company name");
-        TextField cInn = new TextField("Inn");
-        TextField cAddr = new TextField("Address");
-        TextField cTel = new TextField("Phone");
+        TextField cName = new TextField("Название компании");
+        TextField cInn = new TextField("ИНН");
+        TextField cAddr = new TextField("Адрес");
+        TextField cTel = new TextField("Телефон");
 
         VerticalLayout popContent = new VerticalLayout();
         popContent.addComponent(cName);
@@ -22,7 +23,7 @@ public class PopUpLauout extends CustomComponent {
         popContent.addComponent(cAddr);
         popContent.addComponent(cTel);
 //        popContent.addComponent(new Button("addCompany"));
-        Button addCompany = new Button("addCompany");
+        Button addCompany = new Button("Добавить");
 
         addCompany.addClickListener(clickEvent -> {
             System.out.println(addCompany.getCaption());
@@ -33,6 +34,7 @@ public class PopUpLauout extends CustomComponent {
             company.setAddress(cAddr.getValue());
             company.setTel(cTel.getValue());
             companyDAO.addCompany(company);
+            Page.getCurrent().reload();
         });
 
         popContent.addComponent(addCompany);

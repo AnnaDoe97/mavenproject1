@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:phpctrl="">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<phpctrl:context-menu>
+    <template>
+        <phpctrl:menu>
+            <phpctrl:item on-tap="_add">Add</phpctrl:item>
+            <template is="dom-if" if="[[_isGridBody(target)]]">
+                <phpctrl:item content="[[target]]" on-tap="_remove">Remove</phpctrl:item>
+            </template>
+        </phpctrl:menu>
+    </template>
+</phpctrl:context-menu>
+</body>
+</html>

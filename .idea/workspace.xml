@@ -6,10 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30b2949-a288-4fa6-827a-d8e69b72f350" name="Default Changelist" comment="">
+    <list default="true" id="d30b2949-a288-4fa6-827a-d8e69b72f350" name="Default Changelist" comment="а ajax, оказывается, сам по себе не появляется">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/ContextMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/UpdDelLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/CompanyLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/CompanyLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/MyUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/MyUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/PopUpLauout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/PopUpLauout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/mavenproject1/MyUI$MyUIServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/mavenproject1/MyUI$MyUIServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/mavenproject1/MyUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenproject1-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/mavenproject1/MyUI.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,32 +127,37 @@
     <session id="-1316660887">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.113" value="1" />
-          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.30" value="3" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="3" />
           <entry key="project.open.time.36" value="2" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.38" value="3" />
+          <entry key="project.open.time.37" value="3" />
+          <entry key="project.open.time.38" value="5" />
           <entry key="project.open.time.39" value="5" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.40" value="4" />
           <entry key="project.open.time.41" value="5" />
-          <entry key="project.open.time.42" value="3" />
+          <entry key="project.open.time.42" value="4" />
           <entry key="project.open.time.43" value="3" />
-          <entry key="project.open.time.44" value="2" />
+          <entry key="project.open.time.44" value="3" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.55" value="2" />
+          <entry key="project.open.time.56" value="2" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.85" value="1" />
+          <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="48" />
+          <entry key="project.opened" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -151,50 +165,50 @@
           <entry key="README" value="1" />
           <entry key="company" value="6" />
           <entry key="groovy" value="5" />
-          <entry key="html" value="4" />
-          <entry key="java" value="104" />
+          <entry key="html" value="5" />
+          <entry key="java" value="111" />
           <entry key="js" value="1" />
           <entry key="properties" value="2" />
           <entry key="relation" value="5" />
           <entry key="sql" value="7" />
           <entry key="user_data" value="11" />
           <entry key="user_id" value="5" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="22" />
-          <entry key="HTML" value="4" />
-          <entry key="JAVA" value="104" />
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="111" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
           <entry key="SQL" value="6" />
           <entry key="Scratch" value="12" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="90" />
           <entry key="dummy" value="56" />
-          <entry key="html" value="66" />
-          <entry key="java" value="5165" />
+          <entry key="html" value="72" />
+          <entry key="java" value="5848" />
           <entry key="properties" value="6" />
           <entry key="sql" value="147" />
-          <entry key="txt" value="129" />
-          <entry key="xml" value="12" />
+          <entry key="txt" value="179" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="66" />
-          <entry key="JAVA" value="5165" />
-          <entry key="PLAIN_TEXT" value="185" />
+          <entry key="HTML" value="72" />
+          <entry key="JAVA" value="5848" />
+          <entry key="PLAIN_TEXT" value="235" />
           <entry key="Properties" value="6" />
           <entry key="SQL" value="71" />
           <entry key="Scratch" value="166" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -204,11 +218,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/MyUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+            <state relative-caret-position="347">
+              <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/PopUpLauout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/UpdDelLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="36" selection-start-line="36" selection-end-line="44" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,47 +254,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/PopUpLauout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TabExample.java">
+        <entry file="file://$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/object/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/CompanyDAOImplPostgres.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="476">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -264,11 +272,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/CompanyLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="62" />
+            <state relative-caret-position="918">
+              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -277,7 +294,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TestLayout.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -285,17 +302,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/html/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/object/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/html/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -307,6 +324,7 @@
       <list>
         <option value="Interface" />
         <option value="Singleton" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -339,7 +357,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1e41e484-7b8a-481d-bc04-66a9f8eb6f33/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/services/UserService.java" />
         <option value="1e41e484-7b8a-481d-bc04-66a9f8eb6f33/database/dao/schema/public/sequence/user_id" />
         <option value="$PROJECT_DIR$/src/main/java/object/User.java" />
@@ -362,9 +379,15 @@
         <option value="$PROJECT_DIR$/src/main/java/object/Company.java" />
         <option value="$PROJECT_DIR$/src/main/java/object/Person.java" />
         <option value="$PROJECT_DIR$/src/main/resources/html/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/ContextMenuLayout.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/html/menu.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/GridWithGridListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/ContextMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/CompanyLayout.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/MyUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/PopUpLauout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/UpdDelLayout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/MyUI.java" />
       </list>
     </option>
   </component>
@@ -410,9 +433,28 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-33" />
-    <option name="y" value="221" />
-    <option name="width" value="1616" />
-    <option name="height" value="490" />
+    <option name="width" value="978" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UNCHECKED_WARNING</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -420,7 +462,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -459,48 +501,7 @@
               <item name="mavenproject1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenproject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenproject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenproject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenproject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenproject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenproject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenproject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenproject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenproject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenproject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mavenproject1" type="b2602c69:ProjectViewProjectNode" />
@@ -553,29 +554,22 @@
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
               <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="extractors" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
-            <path>
-              <item name="mavenproject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
               <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534975667522" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536331477242" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="SQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -945,7 +939,21 @@
       <workItem from="1535047677022" duration="1411000" />
       <workItem from="1535102399384" duration="622000" />
       <workItem from="1535124686396" duration="595000" />
-      <workItem from="1535194165084" duration="3115000" />
+      <workItem from="1535194165084" duration="6411000" />
+      <workItem from="1535285411301" duration="1223000" />
+      <workItem from="1535353925489" duration="2648000" />
+      <workItem from="1535405929232" duration="597000" />
+      <workItem from="1535446226906" duration="1760000" />
+      <workItem from="1535606695630" duration="1866000" />
+      <workItem from="1535622193373" duration="3290000" />
+      <workItem from="1535791900436" duration="10167000" />
+      <workItem from="1535815412740" duration="1278000" />
+      <workItem from="1535966143972" duration="10832000" />
+      <workItem from="1536075661753" duration="1881000" />
+      <workItem from="1536132788805" duration="11246000" />
+      <workItem from="1536224197834" duration="9000" />
+      <workItem from="1536224382521" duration="69000" />
+      <workItem from="1536325137642" duration="2413000" />
     </task>
     <task id="LOCAL-00001" summary="Надеюсь все файлы заккоммитились корректно">
       <created>1534273488402</created>
@@ -968,7 +976,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534975662889</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Война с PopUp">
+      <created>1535218381908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535218381908</updated>
+    </task>
+    <task id="LOCAL-00005" summary="а ajax, оказывается, сам по себе не появляется">
+      <created>1535218696599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535218696599</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1004,7 +1026,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266783000" />
+    <option name="totallyTimeSpent" value="319358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1016,10 +1038,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.25128534" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.21529563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1030,7 +1052,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.5430591" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.6709511" visible="true" weight="0.29380053" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6625964" visible="true" weight="0.29380053" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.68508995" weight="0.36792454" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1038,8 +1060,8 @@
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.4974293" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.49485862" weight="0.32884097" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49421594" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.32904884" side_tool="true" visible="true" weight="0.29380053" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49485862" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3374036" side_tool="true" visible="true" weight="0.29380053" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48907456" weight="0.32884097" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.4974293" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="14" sideWeight="0.49357328" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -1049,7 +1071,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32969153" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.22493573" />
+      <window_info anchor="right" id="Database" order="6" weight="0.22493573" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -1064,7 +1086,8 @@
     <MESSAGE value="Надеюсь все файлы заккоммитились корректно" />
     <MESSAGE value="Война с Grid" />
     <MESSAGE value="Война с PopUp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Война с PopUp" />
+    <MESSAGE value="а ajax, оказывается, сам по себе не появляется" />
+    <option name="LAST_COMMIT_MESSAGE" value="а ajax, оказывается, сам по себе не появляется" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1221,13 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/object/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1256,23 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/CompanyLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/html/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/object/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1280,28 +1279,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TestLayout.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/GridWithGridListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1534273431911" expanded="true" signature="1539:1644" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/MyUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        <state relative-caret-position="510">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -1312,20 +1293,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/ContextMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="510">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/PopUpLauout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        <state relative-caret-position="357">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/dao/CompanyDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/dao/EmployeeDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/CompanyLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/TestLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/html/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/html/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/UpdDelLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="36" selection-start-line="36" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/mavenproject1/MyUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
         </state>
       </provider>
     </entry>

@@ -53,7 +53,37 @@ public class MyUI extends UI {
         Button add = new Button("Добавить новую", clickEvent ->
                 companyView.setPopupVisible(true));
 
-        for1.addComponents(add, companyView, choose, new CompanyLayout(), popup);
+
+        List<Company> allComp = companyDAO.getAllCompany();
+
+
+
+        PopupView upd = new PopupView(null, new UpdDelLayout());
+
+        Grid<Company> grid = new Grid<>();
+        grid.setItems(allComp);
+        grid.addColumn(Company::getCompanyName).setCaption("Название \nкомпании");
+        grid.addColumn(Company::getAddress).setCaption("Адрес");
+        grid.addColumn(Company::getInn).setCaption("ИНН");
+        grid.addColumn(Company::getTel).setCaption("Телефон");
+        grid.addColumn(Company::getId).setHidden(true).setWidth(0);
+
+        grid.setWidth("100%");
+
+
+
+//        CompanyLayout grid1 = new CompanyLayout();
+        for1.addComponents(add, companyView, upd, choose, grid, popup);
+
+                grid.addSelectionListener(event -> {
+            upd.setPopupVisible(true);
+            System.out.println(event.getAllSelectedItems());
+
+//            CompanyDAO company = (CompanyDAO) event.getAllSelectedItems();
+//                    System.out.println(company.getId());
+//            System.out.println(event.getFirstSelectedItem());
+
+        });
 
 
 //    grid.addColumn(Person::getDateBirth).setCaption("Year of birth");
