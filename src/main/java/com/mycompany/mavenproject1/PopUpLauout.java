@@ -34,7 +34,8 @@ public class PopUpLauout extends CustomComponent {
             company.setAddress(cAddr.getValue());
             company.setTel(cTel.getValue());
             companyDAO.addCompany(company);
-            Page.getCurrent().reload();
+//            Page.getCurrent().reload();
+
         });
 
         popContent.addComponent(addCompany);

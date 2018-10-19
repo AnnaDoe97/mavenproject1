@@ -25,6 +25,8 @@ import java.util.List;
  */
 @Theme("mytheme")
 public class MyUI extends UI {
+    private Company selected;
+    private EditLayout editLayout = new EditLayout(this);
 
     @Override
     protected void init(VaadinRequest vaadinRequest) {
@@ -50,15 +52,16 @@ public class MyUI extends UI {
 
 
         PopupView companyView = new PopupView(null, new PopUpLauout());
-        Button add = new Button("Добавить новую", clickEvent ->
-                companyView.setPopupVisible(true));
-
+        Button add = new Button("Добавить новую", clickEvent -> {
+                companyView.setPopupVisible(true);
+        });
 
         List<Company> allComp = companyDAO.getAllCompany();
 
 
 
-        PopupView upd = new PopupView(null, new UpdDelLayout());
+//        PopupView upd = new PopupView(null, new UpdDelLayout());
+        PopupView upd = new PopupView(null, editLayout);
 
         Grid<Company> grid = new Grid<>();
         grid.setItems(allComp);
@@ -77,12 +80,25 @@ public class MyUI extends UI {
 
                 grid.addSelectionListener(event -> {
             upd.setPopupVisible(true);
-            System.out.println(event.getAllSelectedItems());
+            System.out.println(grid.getSelectedItems());
+            Company selectedObj = (Company) grid.getSelectedItems().iterator().next();
+//            selected = (Company) selectedObj;
+//            System.out.println(event.getAllSelectedItems());
+            System.out.println(selectedObj);
+            
+
+
+
 
 //            CompanyDAO company = (CompanyDAO) event.getAllSelectedItems();
 //                    System.out.println(company.getId());
 //            System.out.println(event.getFirstSelectedItem());
 
+        });
+        upd.addPopupVisibilityListener(event -> {
+            if (!event.isPopupVisible()){
+                grid.getDataProvider().refreshAll();
+            }
         });
 
 
@@ -94,6 +110,9 @@ public class MyUI extends UI {
 
 
     }
+//    public Company getSelected() {
+//        return selected;
+//    }
 
     @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)
     @VaadinServletConfiguration(ui = MyUI.class, productionMode = false)
